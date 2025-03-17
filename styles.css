@@ -29,6 +29,44 @@ nav ul li a {
     background: url('../images/hero-bg.jpg') no-repeat center center/cover;
     color: white;
 }
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.category {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    width: 30%;
+}
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.top-deals {
+    text-align: center;
+    padding: 50px 0;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 .btn {
     display: inline-block;
     padding: 10px 20px;
